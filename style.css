@@ -1,0 +1,149 @@
+nav {
+  float:right;
+
+}
+
+.searchfield {
+  border-radius: 25px;
+  border-width: thin;
+}
+
+nav ul {
+  float: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: block;
+  float: right;
+  height: 30px;
+  font-size: 13px;
+  padding: 10px;
+  text-align: center;
+}
+
+.navitem {
+
+}
+
+.navlink {
+  color: rgba(0,0,0,0.87);
+  text-decoration: none;
+  font-family: arial, sans-serif;
+}
+
+.navlink:hover {
+  text-decoration: underline;
+}
+
+.navimg {
+  opacity: .55;
+  height: 30px;
+  width: 30px;
+}
+
+.navimg:hover {
+  opacity: 1;
+}
+
+.sign-in-button {
+  display: inline-block;
+  background-color: #4387fd;
+  color: #fff;
+  border-radius: 2px;
+  border-width: 0;
+  padding: 9 12px;
+  font-weight: bold;
+  font-size: 13px;
+  width: 75px;
+  line-height: 28px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 571px;
+}
+
+.logobox {
+  display: block;
+  margin-top: 47;
+  height: 233px;
+}
+
+.glogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 109px;
+}
+
+.mag-glass {
+  opacity: .4;
+}
+
+.searchfield {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 34px;
+  width: 527px;
+}
+
+.search-button-div {
+  padding-top: 18px;
+  text-align: center;
+}
+
+.searchbutton {
+  display: inline-block;
+  color: #5F6368;
+  background-color: #f8f8f8;
+  font-size: 13px;
+  border: 0;
+  line-height: 28px;
+  height: 34px;
+  width: 142px;
+  border-radius: 4px;
+  margin: 11px 4px;
+}
+
+.searchbutton:hover {
+  color: black;
+  border: 1px solid #c6c6c6;
+}
+
+#bottom-nav {
+  display: block;
+  background: #f2f2f2;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  border-top: 1px solid #e4e4e4;
+}
+
+footer #bottom-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  line-height: 40px;
+}
+
+.footer-left-item,
+.footer-right-item {
+  display: inline-block;
+  font-size: 13px;
+  font-family: arial, sans-serif;
+  text-decoration: none;
+  color: #5f6368;
+  margin: 0 20px;
+}
+
+.footer-left-item:hover,
+.footer-right-item:hover {
+  text-decoration: underline;
+}
